@@ -1,2 +1,2 @@
-num1=int(input("please enter an intger: "))
-print('hear is the number you put:')
+num1=int(input("Please enter an intger: "))
+print(f'You entered {num1}!')
