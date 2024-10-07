@@ -1,6 +1,6 @@
-div {
-    border :2px black solid;
-}
+/*div {*/
+/*    border :2px black solid;*/
+/*}*/
 
 #first {
     background-color: red;
@@ -26,4 +26,5 @@ div {
 #fifth {
     background-color: darkred;
     padding: 10px;
+    text-align: center;
 }
