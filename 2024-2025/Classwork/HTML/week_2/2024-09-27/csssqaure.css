@@ -1,0 +1,26 @@
+
+#first {
+background-color: red;
+padding: 50px ;
+}
+
+#second {
+    background-color: pink;
+    padding: 40px;
+}
+
+#third {
+    background-color: orange;
+    padding: 30px;
+}
+
+#fourth {
+    background-color: maroon;
+    padding: 20px;
+}
+
+#fifth {
+    background-color: darkred;
+    padding: 10px;
+    text-align: center;
+}
