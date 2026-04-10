@@ -55,23 +55,24 @@ from os import name
 #my_five_movies.remove("Jurassic World_Rebirth")
 #print(my_five_movies)
 
-my_dict = {}
-print(my_dict)
-student = {
-    'name': "Alice",
-    'age' : 20,
-    'major':"computer science"            }
-print(student)
-print(student['name'])
-print(student['age'])
-print(student.keys("",""))
+#my_dict = {}
+#print(my_dict)
+#student = {
+#    'name': "Alice",
+#    'age' : 20,
+#    'major':"computer science"            }
+#print(student)
+#print(student['name'])
+#print(student['age'])
+#print(student.keys("",""))
 #setText("text_area2"       ,
  #setText(labelname, "sorry to hear that");
 #def is_even(number):
-print([1,2,3] + [4,5,])
+#print([1,2,3] + [4,5,])
  #   return number % 2 == 0
 
 # Examples
 #print(is_even(6))
 #print(is_even(3))
-bool("")
+#bool("")
+c

@@ -13,3 +13,29 @@
         <h6>be gone</h6>
     </body>
 </html>
+class BankAccount:
+    def __init__(self, owner, balance=0):
+        self.owner = owner
+        self.balance = balance
+
+class Smartphone:
+    def __init__(self, brand, model, storage, color, battery_life):
+        self.brand = brand
+        self.model = model
+        self.storage = storage  # in GB
+        self.color = color
+        self.battery_life = battery_life  # in hours
+
+# Instantiating BankAccount objects
+acct1 = BankAccount("Alice", 1500)
+acct2 = BankAccount("Bob", 500)
+acct3 = BankAccount("Charlie")
+
+# Instantiating Smartphone objects
+phone1 = Smartphone("Apple", "iPhone 15", 128, "Black", 20)
+phone2 = Smartphone("Samsung", "Galaxy S24", 256, "Silver", 22)
+phone3 = Smartphone("Google", "Pixel 8", 128, "Hazel", 24)
+
+# Printing attributes
+print(f"Bank Accounts: {acct1.owner} (${acct1.balance}), {acct2.owner} (${acct2.balance}), {acct3.owner} (${acct3.balance})")
+print(f"Phones: {phone1.brand} {phone1.model}, {phone2.brand} {phone2.model}, {phone3.brand} {phone3.model}")
