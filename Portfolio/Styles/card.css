@@ -1,0 +1,46 @@
+./* Container using Flexbox */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;             /* Allows cards to move to next line */
+    justify-content: space-around; /* Adds even space between cards */
+    gap: 20px;                   /* Backup spacing */
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+/* The Baseball Card Class */
+.hero-card {
+    width: 250px;
+    height: 350px;
+    background-color: white;
+
+    /* Border and Radius */
+    border: 4px solid #333;
+    border-radius: 15px;         /* Curved corners */
+
+    /* Visual flair */
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.2);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Content inside the card */
+.card-content {
+    padding: 15px;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+}
+
+.stats {
+    margin-top: 50px;
+    font-weight: bold;
+    color: #d9534f;
+}
+
+@media (max-width: 600px) {
+    .card-container {
+        flex-direction: column;    /* Stack cards vertically on small screens */
+        align-items: center;
+    }
+}
